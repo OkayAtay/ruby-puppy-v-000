@@ -5,12 +5,13 @@ class Dog
   @@all = []
   attr_accessor :name
 
-  binding.pry
+
   def initialize(name)
     @name=name
     @@all << name
   end
 
+  binding.pry
   def self.all
     @@all.each {|puppy| puts "#{puppy}"}
   end
