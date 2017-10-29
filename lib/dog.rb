@@ -2,11 +2,13 @@ require "pry"
 
 class Dog
 
-@@all = []
+  @@all = []
 
-def initialize
-end
+  def initialize
+  end
 
-def all
-end
+  def all
+    @@all.each {|puppy| puts "#{puppy}"}
+  end
+
 end
