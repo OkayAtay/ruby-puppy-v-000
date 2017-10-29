@@ -4,7 +4,7 @@ class Dog
 
   @@all = []
   attr_accessor :name
-  binding.pry
+
 
   def initialize(name)
     @name=name
@@ -15,6 +15,7 @@ class Dog
     @@all.each {|puppy| puts "#{puppy}"}
   end
 
+  binding.pry
   def clear_all
     @@all.clear
   end
