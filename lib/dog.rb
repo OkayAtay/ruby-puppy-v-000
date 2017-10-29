@@ -19,9 +19,9 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+
   def name
     @name= name
-
   end
 
 end
