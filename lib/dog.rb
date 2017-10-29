@@ -3,8 +3,9 @@ require "pry"
 class Dog
 
   @@all = []
+  attr_accessor :name
 
-  def initialize(puppy)
+  def initialize(name)
     @@all << puppy
   end
 
